@@ -1,0 +1,39 @@
+# Build artifacts
+dist/
+dist-*/
+dist-newstyle/
+
+# Cabal / Stack metadata
+cabal.project.local*
+*.cabal-sandbox/
+.cabal-sandbox/
+.stack-work/
+cabal-home/
+
+# GHC environment and interface files
+.ghc.environment.*
+*.hi
+*.hi-boot
+*.o
+*.obj
+
+# Editors and tooling
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+tags
+TAGS
+
+# Binaries
+scanner
+
+# Agent and AI assistant files
+AGENTS.md
+CLAUDE.md
+SPECIFICATIONS.md
+improvements_analysis.md
+IMPROVEMENTS_SUMMARY.md
+.aider*

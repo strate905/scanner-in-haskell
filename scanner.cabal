@@ -1,0 +1,18 @@
+name:                scanner
+version:             0.1.0.0
+cabal-version:       >=1.10
+build-type:          Simple
+
+executable scanner
+  main-is:             Main.hs
+  hs-source-dirs:      app, src
+  default-language:    Haskell2010
+  ghc-options:         -Wall -Wincomplete-uni-patterns -Wincomplete-record-updates -threaded -rtsopts "-with-rtsopts=-N"
+  build-depends:       base >=4.14 && <5
+                     , async
+                     , bytestring
+                     , containers
+                     , optparse-applicative
+                     , network
+                     , time
+                     , aeson
